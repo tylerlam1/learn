@@ -20,7 +20,6 @@ server.listen(5000, function() {
 
 // add websocket handlers
 io.on('connection', function(socket) {
-
 });
 
 setInterval(function() {
